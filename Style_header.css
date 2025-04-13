@@ -114,7 +114,6 @@ header nav a {
     
     .banner p {
         font-size: 10px;
-	max-width: 80%;
     }
 
     .button {
@@ -126,8 +125,13 @@ header nav a {
     }
     
     nav {
-        height: 20px;
+        height: 200px;
         padding: 5px 10px;
+        flex-direction: column;
+    }
+
+    header nav a{
+        margin-bottom: 40px;
     }
     
 }
