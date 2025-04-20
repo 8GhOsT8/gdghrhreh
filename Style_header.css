@@ -47,6 +47,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+    animation: fadeInDown;
+    animation-duration: 0.5s;
 }
 
 header nav a {
